@@ -13,7 +13,6 @@
     "scripts/*"
   ],
   "scripts": {
-    "preinstall": "bash scripts/build_rust_binary.sh",
     "postinstall": "bash scripts/postinstall.sh"
   },
   "bin": {
