@@ -2,7 +2,7 @@
 
 ## Overview
 
-CommitIQ is a CLI tool designed to simplify and automate your git workflow. It leverages the power of GPT-3 to generate, add, and commit git changes for you.
+CommitIQ is a CLI tool designed to simplify and automate your git workflow 100% written in Rust. It leverages the power of GPT-3 to generate, add, and commit git changes for you.
 
 ## Prerequisites
 
