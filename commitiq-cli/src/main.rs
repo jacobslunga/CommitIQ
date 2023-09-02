@@ -78,6 +78,7 @@ async fn main() {
                 }
                 _ => {
                     println!("Invalid option. Please enter 'yes', 'no', or 'new'.");
+                    println!("");
                 }
             }
         },
