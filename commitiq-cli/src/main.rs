@@ -82,6 +82,9 @@ async fn main() {
                 }
             }
         },
+        cli_handlers::Command::Version => {
+            println!("ciq v{}", env!("CARGO_PKG_VERSION"));
+        }
         cli_handlers::Command::Unknown => {
             println!("Unknown command");
         }

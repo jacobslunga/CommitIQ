@@ -4,6 +4,7 @@ use std::path::Path;
 pub enum Command {
     Config { api_key: String },
     GenerateCommit,
+    Version,
     Unknown,
 }
 
@@ -14,6 +15,13 @@ pub fn get_cli_matches() -> Command {
 
     if args.len() == 1 && program_name == "ciq" {
         return Command::GenerateCommit;
+    }
+
+    if args.len() == 2 {
+        match args[1].as_str() {
+            "--version" | "-v" => return Command::Version,
+            _ => {}
+        }
     }
 
     if args.len() >= 4 && args[1] == "config" && args[2] == "set" {
