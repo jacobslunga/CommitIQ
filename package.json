@@ -1,0 +1,11 @@
+{
+  "name": "commify",
+  "version": "1.0.0",
+  "scripts": {
+    "preinstall": "bash scripts/build_rust_binary.sh",
+    "postinstall": "bash scripts/postinstall.sh"
+  },
+  "bin": {
+    "ciq": "./commitiq-cli/target/release/commitiq"
+  }
+}

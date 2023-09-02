@@ -1,0 +1,11 @@
+/home/jacobslunga/PROJECTS/COMMIFY/commify-cli/target/debug/deps/ipnet-6a383c16b983f84f.rmeta: /home/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/lib.rs /home/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/ipext.rs /home/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/ipnet.rs /home/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/parser.rs /home/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/mask.rs
+
+/home/jacobslunga/PROJECTS/COMMIFY/commify-cli/target/debug/deps/libipnet-6a383c16b983f84f.rlib: /home/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/lib.rs /home/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/ipext.rs /home/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/ipnet.rs /home/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/parser.rs /home/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/mask.rs
+
+/home/jacobslunga/PROJECTS/COMMIFY/commify-cli/target/debug/deps/ipnet-6a383c16b983f84f.d: /home/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/lib.rs /home/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/ipext.rs /home/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/ipnet.rs /home/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/parser.rs /home/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/mask.rs
+
+/home/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/lib.rs:
+/home/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/ipext.rs:
+/home/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/ipnet.rs:
+/home/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/parser.rs:
+/home/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/mask.rs:
