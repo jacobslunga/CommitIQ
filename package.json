@@ -1,6 +1,17 @@
 {
-  "name": "commify",
-  "version": "1.0.0",
+  "name": "commitiq",
+  "version": "1.0.1",
+  "description": "Your package description",
+  "license": "MIT",
+  "keywords": [
+    "git",
+    "commit",
+    "automation"
+  ],
+  "files": [
+    "commitiq-cli/target/release/commitiq",
+    "scripts/*"
+  ],
   "scripts": {
     "preinstall": "bash scripts/build_rust_binary.sh",
     "postinstall": "bash scripts/postinstall.sh"
