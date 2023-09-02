@@ -12,7 +12,6 @@ use std::time::Duration;
 async fn main() {
     dotenv::dotenv().ok();
     let command = cli_handlers::get_cli_matches();
-    println!("hello");
 
     match command {
         cli_handlers::Command::Config { api_key } => {
