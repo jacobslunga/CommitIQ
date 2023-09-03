@@ -13,7 +13,7 @@
     "scripts/*"
   ],
   "scripts": {
-    "postinstall": "node scripts/postinstall.js"
+    "postinstall": "node postinstall.js"
   },
   "bin": {
     "ciq": "./commitiq-cli/target/release/commitiq"

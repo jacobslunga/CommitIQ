@@ -24,6 +24,7 @@ if (!fs.existsSync(destinationDir)) {
   fs.mkdirSync(destinationDir, { recursive: true });
 }
 
+console.log(__dirname);
 const sourcePath = path.join(
   __dirname,
   "commitiq-cli",
