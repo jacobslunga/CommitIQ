@@ -1,7 +1,7 @@
 {
   "name": "commitiq",
   "version": "6.1.1",
-  "description": "Your package description",
+  "description": "CommitIQ is a tool that helps you write better commit messages.",
   "license": "MIT",
   "keywords": [
     "git",
@@ -9,11 +9,10 @@
     "automation"
   ],
   "files": [
-    "commitiq-cli/target/release/commitiq",
-    "scripts/*"
+    "commitiq-cli/target/release/commitiq"
   ],
   "scripts": {
-    "postinstall": "node postinstall.js"
+    "postinstall": "node ./postinstall.js"
   },
   "bin": {
     "ciq": "./commitiq-cli/target/release/commitiq"
