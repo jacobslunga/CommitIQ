@@ -1,6 +1,6 @@
 {
   "name": "commitiq",
-  "version": "6.1.2",
+  "version": "6.1.3",
   "description": "CommitIQ is a tool that helps you write better commit messages.",
   "license": "MIT",
   "keywords": [
