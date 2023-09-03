@@ -54,7 +54,7 @@ pub async fn get_gpt3_response(api_key: &str, prompt: &str) -> Result<String, Er
 
     if res.status() != StatusCode::OK {
         println!("API call failed with status code: {}", res.status());
-        return Ok("".to_string());
+        std::process::exit(1);
     }
 
     let data: GPT3Response = res.json().await?;
