@@ -9,10 +9,11 @@
     "automation"
   ],
   "files": [
-    "commitiq-cli/target/release/commitiq"
+    "commitiq-cli/target/release/commitiq",
+    "./postinstall.js"
   ],
   "scripts": {
-    "postinstall": "node ./postinstall.js"
+    "postinstall": "node postinstall.js"
   },
   "bin": {
     "ciq": "./commitiq-cli/target/release/commitiq"
