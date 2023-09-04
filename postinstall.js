@@ -25,9 +25,9 @@ if (platform === "win32") {
   destinationDir = path.join("/usr", "local", "bin");
   console.log("arch", arch);
   sourceFolder = arch === "arm64" ? "mac-m1" : "mac-intel";
-} else {
-  console.log("Currently, only Windows and MacOS are supported.");
-  process.exit(1);
+} else if (platform === "linux") {
+  destinationDir = path.join(homeDir, ".local", "bin");
+  sourceFolder = "linux";
 }
 
 if (!fs.existsSync(destinationDir)) {

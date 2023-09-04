@@ -1,0 +1,12 @@
+prefix=/home/jacobslunga/PROJECTS/CommitIQ/commitiq-cli/target/release/build/openssl-sys-b3bc9e35ba3331d7/out/openssl-build/install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+enginesdir=${libdir}/engines-1.1
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Version: 1.1.1v
+Libs: -L${libdir} -lcrypto
+Libs.private: -ldl -pthread 
+Cflags: -I${includedir}
