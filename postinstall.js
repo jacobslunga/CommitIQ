@@ -40,7 +40,7 @@ const sourcePath = path.join(
   "target",
   "release",
   sourceFolder,
-  "commitiq"
+  "commitiq" + (platform === "win32" ? ".exe" : "")
 );
 const destinationPath = path.join(destinationDir, "ciq");
 packageJson["bin"] = { ciq: destinationPath };
