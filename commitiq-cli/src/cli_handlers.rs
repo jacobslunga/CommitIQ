@@ -22,7 +22,7 @@ pub fn get_cli_matches() -> Command {
 
     let program_name: &str = Path::new(&args[0]).file_name().unwrap().to_str().unwrap();
 
-    if args.len() == 1 && program_name == "commitiq" {
+    if args.len() == 1 && program_name == "ciq" {
         return Command::GenerateCommit;
     }
 
@@ -99,6 +99,7 @@ pub async fn handle_matches(command: Command) {
 
                     println!("");
                     println!("You can now push your changes to the remote repository🚀.");
+                    println!("Run: git push");
                     break;
                 }
                 "no" | "n" => {
