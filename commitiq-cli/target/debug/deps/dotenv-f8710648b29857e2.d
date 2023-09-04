@@ -1,0 +1,11 @@
+/Users/jacobslunga/Desktop/PROJECTS/CommitIQ/commitiq-cli/target/debug/deps/dotenv-f8710648b29857e2.rmeta: /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dotenv-0.15.0/src/lib.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dotenv-0.15.0/src/parse.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dotenv-0.15.0/src/errors.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dotenv-0.15.0/src/iter.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dotenv-0.15.0/src/find.rs
+
+/Users/jacobslunga/Desktop/PROJECTS/CommitIQ/commitiq-cli/target/debug/deps/libdotenv-f8710648b29857e2.rlib: /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dotenv-0.15.0/src/lib.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dotenv-0.15.0/src/parse.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dotenv-0.15.0/src/errors.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dotenv-0.15.0/src/iter.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dotenv-0.15.0/src/find.rs
+
+/Users/jacobslunga/Desktop/PROJECTS/CommitIQ/commitiq-cli/target/debug/deps/dotenv-f8710648b29857e2.d: /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dotenv-0.15.0/src/lib.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dotenv-0.15.0/src/parse.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dotenv-0.15.0/src/errors.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dotenv-0.15.0/src/iter.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dotenv-0.15.0/src/find.rs
+
+/Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dotenv-0.15.0/src/lib.rs:
+/Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dotenv-0.15.0/src/parse.rs:
+/Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dotenv-0.15.0/src/errors.rs:
+/Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dotenv-0.15.0/src/iter.rs:
+/Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dotenv-0.15.0/src/find.rs:

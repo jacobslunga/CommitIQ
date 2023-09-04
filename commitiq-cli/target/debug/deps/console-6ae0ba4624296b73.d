@@ -1,0 +1,11 @@
+/Users/jacobslunga/Desktop/PROJECTS/CommitIQ/commitiq-cli/target/debug/deps/console-6ae0ba4624296b73.rmeta: /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.7/src/lib.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.7/src/common_term.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.7/src/kb.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.7/src/term.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.7/src/unix_term.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.7/src/utils.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.7/src/ansi.rs
+
+/Users/jacobslunga/Desktop/PROJECTS/CommitIQ/commitiq-cli/target/debug/deps/console-6ae0ba4624296b73.d: /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.7/src/lib.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.7/src/common_term.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.7/src/kb.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.7/src/term.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.7/src/unix_term.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.7/src/utils.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.7/src/ansi.rs
+
+/Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.7/src/lib.rs:
+/Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.7/src/common_term.rs:
+/Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.7/src/kb.rs:
+/Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.7/src/term.rs:
+/Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.7/src/unix_term.rs:
+/Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.7/src/utils.rs:
+/Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/console-0.15.7/src/ansi.rs:

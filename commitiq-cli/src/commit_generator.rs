@@ -135,24 +135,30 @@ pub async fn run_workflow(
     commit_message: &String,
     selected_files: &Vec<String>,
 ) -> Result<(), Box<dyn std::error::Error>> {
-    for file in selected_files {
-        println!("File: {}", file);
-    }
-    if selected_files.contains(&"* All".to_string()) {
-        let _ = Command::new("git")
-            .arg("add")
-            .arg(".")
-            .output()
-            .expect("Failed to execute git add command");
-    } else {
-        for file in selected_files {
-            let _ = Command::new("git")
-                .arg("add")
-                .arg(file)
-                .output()
-                .expect("Failed to execute git add command for specific file");
-        }
-    }
+    // for file in selected_files {
+    //     println!("File: {}", file);
+    // }
+    // if selected_files.contains(&"* All".to_string()) {
+    //     let _ = Command::new("git")
+    //         .arg("add")
+    //         .arg(".")
+    //         .output()
+    //         .expect("Failed to execute git add command");
+    // } else {
+    //     for file in selected_files {
+    //         let _ = Command::new("git")
+    //             .arg("add")
+    //             .arg(file)
+    //             .output()
+    //             .expect("Failed to execute git add command for specific file");
+    //     }
+    // }
+
+    let _ = Command::new("git")
+        .arg("add")
+        .arg(".")
+        .output()
+        .expect("Failed to execute git add command");
 
     let _ = Command::new("git")
         .arg("commit")

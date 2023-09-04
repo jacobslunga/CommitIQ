@@ -5,6 +5,7 @@ use std::env;
 use std::path::Path;
 use std::thread::sleep;
 use std::time::Duration;
+use std::vec;
 
 use colored::*;
 use std::io::{self, Write};
@@ -50,8 +51,8 @@ pub async fn handle_matches(command: Command) {
             println!("API key set to: {}", api_key);
         }
         Command::GenerateCommit => loop {
-            let modified_files = commit_generator::get_modified_files();
-            let selected_files = commit_generator::display_and_select_files(modified_files.clone());
+            // let modified_files = commit_generator::get_modified_files();
+            // let selected_files = commit_generator::display_and_select_files(modified_files.clone());
 
             let git_diff = commit_generator::get_git_diff();
             let commit_message = commit_generator::generate_commit_message(&git_diff)
@@ -78,7 +79,7 @@ pub async fn handle_matches(command: Command) {
 
             match user_input {
                 "yes" | "y" => {
-                    commit_generator::run_workflow(&commit_message, &selected_files)
+                    commit_generator::run_workflow(&commit_message, &vec![])
                         .await
                         .unwrap();
                     println!("Committing...");

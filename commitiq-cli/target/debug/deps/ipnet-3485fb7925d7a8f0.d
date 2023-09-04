@@ -1,0 +1,11 @@
+/Users/jacobslunga/Desktop/PROJECTS/CommitIQ/commitiq-cli/target/debug/deps/ipnet-3485fb7925d7a8f0.rmeta: /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/lib.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/ipext.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/ipnet.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/parser.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/mask.rs
+
+/Users/jacobslunga/Desktop/PROJECTS/CommitIQ/commitiq-cli/target/debug/deps/libipnet-3485fb7925d7a8f0.rlib: /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/lib.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/ipext.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/ipnet.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/parser.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/mask.rs
+
+/Users/jacobslunga/Desktop/PROJECTS/CommitIQ/commitiq-cli/target/debug/deps/ipnet-3485fb7925d7a8f0.d: /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/lib.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/ipext.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/ipnet.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/parser.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/mask.rs
+
+/Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/lib.rs:
+/Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/ipext.rs:
+/Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/ipnet.rs:
+/Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/parser.rs:
+/Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ipnet-2.8.0/src/mask.rs:
