@@ -9,7 +9,10 @@
     "automation"
   ],
   "files": [
-    "commitiq-cli/target/release/commitiq",
+    "commitiq-cli/target/release/windows/commitiq.exe",
+    "commitiq-cli/target/release/linux/commitiq",
+    "commitiq-cli/target/release/mac-intel/commitiq",
+    "commitiq-cli/target/release/mac-m1/commitiq",
     "./postinstall.js"
   ],
   "scripts": {

@@ -1,0 +1,10 @@
+/Users/jacobslunga/Desktop/PROJECTS/CommitIQ/commitiq-cli/target/aarch64-apple-darwin/release/deps/lock_api-582f3f6ed47773d2.rmeta: /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.10/src/lib.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.10/src/mutex.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.10/src/remutex.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.10/src/rwlock.rs
+
+/Users/jacobslunga/Desktop/PROJECTS/CommitIQ/commitiq-cli/target/aarch64-apple-darwin/release/deps/liblock_api-582f3f6ed47773d2.rlib: /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.10/src/lib.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.10/src/mutex.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.10/src/remutex.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.10/src/rwlock.rs
+
+/Users/jacobslunga/Desktop/PROJECTS/CommitIQ/commitiq-cli/target/aarch64-apple-darwin/release/deps/lock_api-582f3f6ed47773d2.d: /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.10/src/lib.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.10/src/mutex.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.10/src/remutex.rs /Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.10/src/rwlock.rs
+
+/Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.10/src/lib.rs:
+/Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.10/src/mutex.rs:
+/Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.10/src/remutex.rs:
+/Users/jacobslunga/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.10/src/rwlock.rs:

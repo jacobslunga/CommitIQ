@@ -6,6 +6,8 @@ const shell = require("shelljs");
 const homeDir = os.homedir();
 const platform = os.platform();
 const arch = os.arch();
+const packageJsonPath = path.join(__dirname, "package.json");
+const packageJson = require(packageJsonPath);
 
 let destinationDir;
 let sourceFolder;
@@ -30,6 +32,8 @@ if (platform === "win32") {
 if (!fs.existsSync(destinationDir)) {
   fs.mkdirSync(destinationDir, { recursive: true });
 }
+
+packageJson["bin"] = { ciq: destinationPath };
 
 const sourcePath = path.join(
   __dirname,

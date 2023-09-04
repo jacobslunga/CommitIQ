@@ -1,0 +1,58 @@
+apps/s_socket.c: In function 'init_client':
+apps/s_socket.c:126:25: warning: overflow in conversion from 'long long unsigned int' to 'int' changes value from '18446744073709551615' to '-1' [-Woverflow]
+  126 |                 *sock = INVALID_SOCKET;
+      |                         ^~~~~~~~~~~~~~
+apps/s_socket.c:152:21: warning: overflow in conversion from 'long long unsigned int' to 'int' changes value from '18446744073709551615' to '-1' [-Woverflow]
+  152 |             *sock = INVALID_SOCKET;
+      |                     ^~~~~~~~~~~~~~
+In file included from /opt/homebrew/Cellar/mingw-w64/11.0.1/toolchain-x86_64/x86_64-w64-mingw32/include/winnt.h:27,
+                 from /opt/homebrew/Cellar/mingw-w64/11.0.1/toolchain-x86_64/x86_64-w64-mingw32/include/minwindef.h:163,
+                 from /opt/homebrew/Cellar/mingw-w64/11.0.1/toolchain-x86_64/x86_64-w64-mingw32/include/windef.h:9,
+                 from /opt/homebrew/Cellar/mingw-w64/11.0.1/toolchain-x86_64/x86_64-w64-mingw32/include/windows.h:69,
+                 from crypto/async/arch/../async_local.h:20,
+                 from crypto/async/arch/async_win.c:11:
+In function '__readgsqword',
+    inlined from 'GetCurrentFiber' at /opt/homebrew/Cellar/mingw-w64/11.0.1/toolchain-x86_64/x86_64-w64-mingw32/include/winnt.h:10014:60,
+    inlined from 'async_fibre_init_dispatcher' at crypto/async/arch/async_win.c:40:24:
+/opt/homebrew/Cellar/mingw-w64/11.0.1/toolchain-x86_64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h:838:1: warning: array subscript 0 is outside array bounds of 'long long unsigned int[0]' [-Warray-bounds=]
+  838 | __buildreadseg(__readgsqword, unsigned __int64, "gs", "q")
+      | ^~~~~~~~~~~~~~
+In function 'async_fibre_init_dispatcher':
+cc1: note: source object is likely at address zero
+crypto/bio/b_sock.c: In function 'BIO_get_accept_socket':
+crypto/bio/b_sock.c:202:13: warning: overflow in conversion from 'long long unsigned int' to 'int' changes value from '18446744073709551615' to '-1' [-Woverflow]
+  202 |     int s = INVALID_SOCKET;
+      |             ^~~~~~~~~~~~~~
+crypto/bio/b_sock.c:207:16: warning: overflow in conversion from 'long long unsigned int' to 'int' changes value from '18446744073709551615' to '-1' [-Woverflow]
+  207 |         return INVALID_SOCKET;
+      |                ^~~~~~~~~~~~~~
+crypto/bio/b_sock.c:210:16: warning: overflow in conversion from 'long long unsigned int' to 'int' changes value from '18446744073709551615' to '-1' [-Woverflow]
+  210 |         return INVALID_SOCKET;
+      |                ^~~~~~~~~~~~~~
+crypto/bio/b_sock.c:217:13: warning: overflow in conversion from 'long long unsigned int' to 'int' changes value from '18446744073709551615' to '-1' [-Woverflow]
+  217 |         s = INVALID_SOCKET;
+      |             ^~~~~~~~~~~~~~
+crypto/bio/b_sock.c:224:13: warning: overflow in conversion from 'long long unsigned int' to 'int' changes value from '18446744073709551615' to '-1' [-Woverflow]
+  224 |         s = INVALID_SOCKET;
+      |             ^~~~~~~~~~~~~~
+crypto/bio/b_sock2.c: In function 'BIO_socket':
+crypto/bio/b_sock2.c:45:16: warning: overflow in conversion from 'long long unsigned int' to 'int' changes value from '18446744073709551615' to '-1' [-Woverflow]
+   45 |         return INVALID_SOCKET;
+      |                ^~~~~~~~~~~~~~
+crypto/bio/b_sock2.c:51:16: warning: overflow in conversion from 'long long unsigned int' to 'int' changes value from '18446744073709551615' to '-1' [-Woverflow]
+   51 |         return INVALID_SOCKET;
+      |                ^~~~~~~~~~~~~~
+crypto/bio/b_sock2.c: In function 'BIO_accept_ex':
+crypto/bio/b_sock2.c:297:16: warning: overflow in conversion from 'long long unsigned int' to 'int' changes value from '18446744073709551615' to '-1' [-Woverflow]
+  297 |         return INVALID_SOCKET;
+      |                ^~~~~~~~~~~~~~
+crypto/bio/b_sock2.c:302:16: warning: overflow in conversion from 'long long unsigned int' to 'int' changes value from '18446744073709551615' to '-1' [-Woverflow]
+  302 |         return INVALID_SOCKET;
+      |                ^~~~~~~~~~~~~~
+crypto/init.c: In function 'OPENSSL_atexit':
+crypto/init.c:763:11: warning: variable 'handlersym' set but not used [-Wunused-but-set-variable]
+  763 |         } handlersym;
+      |           ^~~~~~~~~~
+x86_64-w64-mingw32-ar: creating apps/libapps.a
+x86_64-w64-mingw32-ar: creating libcrypto.a
+x86_64-w64-mingw32-ar: creating libssl.a

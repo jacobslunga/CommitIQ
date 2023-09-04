@@ -1,0 +1,12 @@
+prefix=/Users/jacobslunga/Desktop/PROJECTS/CommitIQ/commitiq-cli/target/x86_64-apple-darwin/release/build/openssl-sys-de534ffb3424c0c1/out/openssl-build/install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+enginesdir=${libdir}/engines-1.1
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Version: 1.1.1v
+Libs: -L${libdir} -lcrypto
+Libs.private:  
+Cflags: -I${includedir}
