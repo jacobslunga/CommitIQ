@@ -13,8 +13,7 @@
     "commitiq-cli/target/release/linux/commitiq",
     "commitiq-cli/target/release/mac-intel/commitiq",
     "commitiq-cli/target/release/mac-m1/commitiq",
-    "./postinstall.js",
-    "commitiq-cli"
+    "./postinstall.js"
   ],
   "scripts": {
     "postinstall": "node postinstall.js"
