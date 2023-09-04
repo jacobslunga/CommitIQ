@@ -23,7 +23,8 @@ if (platform === "win32") {
   sourceFolder = "windows";
 } else if (platform === "darwin") {
   destinationDir = path.join("/usr", "local", "bin");
-  sourceFolder = arch === "arm64" ? "macos-m1" : "macos-intel";
+  console.log("arch", arch);
+  sourceFolder = arch === "arm64" ? "mac-m1" : "mac-intel";
 } else {
   console.log("Currently, only Windows and MacOS are supported.");
   process.exit(1);
@@ -33,15 +34,16 @@ if (!fs.existsSync(destinationDir)) {
   fs.mkdirSync(destinationDir, { recursive: true });
 }
 
-packageJson["bin"] = { ciq: destinationPath };
-
 const sourcePath = path.join(
   __dirname,
   "commitiq-cli",
+  "target",
+  "release",
   sourceFolder,
   "commitiq"
 );
 const destinationPath = path.join(destinationDir, "ciq");
+packageJson["bin"] = { ciq: destinationPath };
 
 fs.copyFileSync(sourcePath, destinationPath);
 
