@@ -19,9 +19,6 @@
   "scripts": {
     "postinstall": "node postinstall.js"
   },
-  "bin": {
-    "ciq": "./commitiq-cli/target/release/commitiq"
-  },
   "dependencies": {
     "shelljs": "^0.8.5"
   }
