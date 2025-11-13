@@ -1,4 +1,4 @@
-# CommitIQ 🚀
+# CommitIQ
 
 ## Overview
 
@@ -60,11 +60,3 @@ You can now push your changes to the remote repository🚀.
 ## Limitations
 
 - The tool is in its early stages and may contain bugs.
-
-## Contributing
-
-If you'd like to contribute, please open an issue or submit a pull request. All contributions are welcome!
-
-## Acknowledgments
-
-Special thanks to OpenAI for providing the GPT-3 API that powers the commit message generation.
